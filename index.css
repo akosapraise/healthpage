@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+}
+
+.button{
+    font-size:18px;
+    outline-style: solid;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline-width: 2px;
+    padding: 0px 28px;
+    display: inline-block;
+    margin-top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.button.light{
+outline-color: black;
+color: black;
+}
+
+.button.blue{
+    outline-color: white;
+    color: white;
+}
+
+.button.btn3{
+    color:white;
+    outline-color: #418aad;
+    background:#418aad;
+}
+
+.text-container{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px,1fr));
+    align-items: center;
+}
+.forwordsandtext{
+    padding-left: 80px;
+}
+.first-button{
+    text-align: center;
+}
+.text-container-image img{
+    width: 100%;
+}
+.main-container{
+    background-color:#418aad;
+    
+}
+.text{
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-family: Oswald;
+    color: #edf7fb;
+    font-weight: 700;
+    line-height: 6.5rem;
+    letter-spacing: normal;
+
+}
+.words{
+    font-style: italic;
+    color: white;
+    font-size:medium;
+}
+.first-button{
+    
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #418aad; 
+    border-style: none;
+    font-size: 1rem;
+    margin: 32px auto 0 0;
+    padding: 10px 52px 10px 51px;   
+    font-family: Oswald;
+}
+.search-input{
+    margin-bottom: 50px;
+}
+
+.mid-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 35px;
+    padding: 30px 20px;
+    border: 6px ;    
+}
+
+.sub-heading{
+    font-weight: 700;
+    margin: 12px 0 0;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.write-up{
+    font-style: italic;
+    color: #808080;
+    margin: 18px 0 0;
+    width: 250px;
+}
+
+.layout-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    
+}
+.igrid{
+    width: 55%;
+}
+.igrid img{
+ width:100%;
+}
+
+.text-picture{
+    width: 38%;
+    
+}
+
+.mental{
+    font-weight: 600;
+    font-size: 4rem;
+    font-family: Oswald;
+    line-height: 1.1;
+
+}
+.covid{
+    font-style: italic;
+    font-size: 1.875rem;
+    color: #808080;
+    margin-bottom: 22px;
+}
+
+.para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin: 35px 0 12px;
+}
+
+.second-button{
+    background-image:blue;
+    letter-spacing : 3px;
+    font-weight: 200;
+    color: white;
+    border-style: none;
+    font-size: 1rem;
+    margin: 32px auto 0 0;
+    padding: 10px 52px 10px 51px;
+    background-color: #418aad;
+}
+
+.one{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 60px 1075px 0 0;
+    color: #111;
+    font-family: oswald;
+}
+
+.plan{
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-weight: 900;
+    line-height: 0.6;
+    color: #edf7fb;
+    font-size: 9.374rem;
+    margin: 40px auto 0 0;
+    
+}
+
+.forge{
+    color: #edf7fb;
+    letter-spacing: 2px;
+    margin: 32px 308px 0 0;
+    font-family: Open sans;
+
+}
+.section-plan{
+    background-color: #418aad;
+    margin-top: 40px;
+    align-items: center;
+    padding: 80px;
+}
+
+.third-button{
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    font-size: 1rem;
+    margin: 20px auto 0 0;
+    padding: 10px 52px 10px 51px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    
+}
+
+.online-container{
+    display: flex;
+    gap: 35px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 80px;
+}
+
+.bold{
+    font-weight: 300;
+    font-size: 3rem;
+    font-family: Oswald;
+    line-height: 1.2s;
+
+}
+
+
+.course{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 450px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin: 35px 0 0;
+    margin-bottom: 12px;
+
+}
+
+.fourth-button{
+    letter-spacing : 2px;
+    font-weight: 200;
+    color: #454545;
+    border-style: solid;
+    font-size: 1rem;
+    margin: 20px auto 0 0;
+    padding: 10px 52px 10px 51px;
+    background-color:transparent;
+}
+
+b{
+    font-weight:bold;
+    color: #418aad;
+}
+
+
+.three{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 40px auto 0 0;
+    color: whitesmoke;
+    font-family: oswald;
+}
+
+.relax{
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-weight: 900;
+    line-height: 0.6;
+    color: #edf7fb;
+    font-size: 9.374rem;
+    margin: 40px auto 0 0;
+    
+}
+
+.think{
+    color: #edf7fb;
+    letter-spacing: 2px;
+    margin: 32px 308px 0 0;
+    font-family: Open sans;
+
+}
+.mid-plan{
+    background-color: #418aad;
+    margin-top: 40px;
+    line-height: 1.6;
+    padding: 80px;
+    
+
+}
+
+.fifth-button{
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    font-size: 1rem;
+    margin: 20px auto 0 0;
+    padding: 10px 52px 10px 51px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.flex-images{
+   display: flex;
+}
+ 
+.flex-text{
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    gap: 130px;
+    margin-top: 40px;
+    justify-content: center;
+    padding: 45px;
+}
+
+.six-button{
+    border-color:black;
+    color: #111;
+    background-color: transparent;
+    font-size: 1rem;
+    margin: 20px auto 0 0;
+    padding: 10px 52px 10px 51px;
+    letter-spacing: 2px;
+    font-weight: 200;
+
+}
+.end{
+    font-size: 1rem;
+    font-family: Open sans;
+    
+}
+
+.last{
+    font-size: 3rem;
+    padding: 20px;
+    width: 300px;
+    
+}
+
+.final-container{
+    display: flex;
+    gap: 150px;
+    margin-top: 40px;
+    background-color: #3abed5;
+}
+
+.finale{
+    padding: 30px;
+}
+
+.spain{
+    line-height: 2;
+    font-family: Oswald;
+    color: #ffff;
+    font-size: 1.25rem;
+
+}
+
+.contact-us{
+    font-family: Oswald;
+    font-size: 3.75rem;
+    color: #edf7fb;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+
+.no{
+    font-size: 1.875rem;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    margin:0 auto 0 0;
+}
+
+.numbers{
+    color: #111;
+    line-height: 1.8;
+    letter-spacing: 3px;
+    font-size: 1.875rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.chai{
+    color: #111;
+    
+}
